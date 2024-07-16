@@ -4,11 +4,11 @@ import psycopg2
 # PC_17 to PC_20
 def dbConnect():
     return psycopg2.connect(
-    host = "localhost",
-    database = "backend",
-    user = "postgres",
-    password = "admin123" ,
-    port = 5432 
+    host = "",
+    database = "",
+    user = "",
+    password = "" ,
+    port = 
 )
 
 # def dbConnect():
